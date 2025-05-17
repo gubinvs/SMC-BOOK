@@ -1,0 +1,15 @@
+.navigation-panrel-min {
+    width: 70px;
+    height: calc(100vh - 20px);
+    border-radius: 10px;
+    background-color: #F5F6FA;
+    margin-right: 10px;
+}
+
+.navigation-panrel-max {
+    width: 300px;
+    height: calc(100vh - 20px);
+    border-radius: 10px;
+    background-color: #F5F6FA;
+    margin-right: 10px;
+}

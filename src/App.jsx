@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import AuthorizationForm from "./RegistrationForm/AuthorizationForm.jsx";
-import Panel from "./Panel/Panel.jsx";
+import ApplicationPanel from "./ApplicationPanel/ApplicationPanel.jsx";
 import { ProtectedRoute } from "./js/authHelpers.js"; // Импорт из нового файла
 
 const App = () => {
@@ -12,10 +12,10 @@ const App = () => {
       <Routes>
         <Route path="/" element={<AuthorizationForm />} />
         <Route
-          path="/Panel"
+          path="/ApplicationPanel"
           element={
             <ProtectedRoute>
-              <Panel />
+              <ApplicationPanel />
             </ProtectedRoute>
           }
         />

@@ -1,0 +1,7 @@
+.application-panel-container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding-right: 10px;
+    padding-left: 10px;
+}
