@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ApiUrl from '../js/ApiUrl.js';
+import ApiUrl from '../js/apiUrl.js';
 import "./RegistrationForm.css";
 import { useNavigate } from "react-router-dom";
 

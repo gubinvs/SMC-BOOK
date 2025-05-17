@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ApiUrl from "../js/ApiUrl.js";
+import ApiUrl from "../js/apiUrl.js";
 import "./RegistrationForm.css";
 
 const RegistrationForm = () => {
